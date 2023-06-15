@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Banker's Algorithm</title>
+	<link rel="stylesheet" href="animation.css">
+</head>
+<body>
+	<nav>
+		<a href="C:\Users\user\Desktop\Portfolio-Website-main\index.html" style="text-decoration: none;"><h2>Home</h2></a>
+		
+		<h1>Process Syncronization</h1>
+	</nav>
+    <div class="box">
+        <div class="mutex">
+            <h2 class=".tit">Airline Reservation System</h2>
+            <h3>Mutual Exclusion</h3>
+            <div class="cont">
+                <p><h4>Critical Section:</h4>The critical section refers to the part of the reservation process where conflicts can occur, such as when booking a specific seat or flight. To ensure mutual exclusion, this critical section must be properly protected.</p>
+                <p> Without mutual exclusion, multiple users or processes can simultaneously attempt to book the same seat or flight. As a result, the system may allow more than one reservation for the same resource, leading to double bookings. This can cause significant inconvenience to passengers and result in overbooking situations.</p>
+                <p>To achieve mutual exclusion, you can utilize a locking mechanism. Each shared resource, such as a seat or flight, should have an associated lock. The lock can be implemented as a binary flag or a data structure that indicates whether the resource is currently being accessed or modified by any user or process.</p>
+                <p style="font-size:24px">Watch a video on it here       <i class="fa fa-angle-double-right" ></i> </p>
+            </div>
+            
+        </div>
+        <div class="vid">
+            <video controls autoplay>
+                <source src="C:\Users\user\Desktop\Portfolio-Website-main\animationos.mp4">
+            </video>
+        </div>
+    </div>
+</body>
+</html>

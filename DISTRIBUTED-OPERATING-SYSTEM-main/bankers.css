@@ -1,0 +1,89 @@
+body {
+	background-color: #ffffff; /* Black */
+	color: #000000; /* Golden yellow */
+	margin: 0;
+	padding: 0;
+	font-family: Garamond, serif;
+  }
+  
+  nav {
+	background-color: white; /* Black */
+	padding: 20px;
+	box-shadow: 0 3px 4px rgba(2, 2, 2, 0.3);
+  }
+  
+  nav h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	
+  }
+  nav h2{
+	margin-bottom: -40px;
+	margin-left: 40px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+  }
+  nav h2:hover{
+	color:#2d2f41;
+	text-shadow: 1px 1px 1px rgb(58, 57, 57);
+	border-radius: 5px;
+	width:80px;
+  }
+  
+  main {
+	text-align: center;
+	padding: 40px;
+  }
+table {
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+td, th {
+	border: 1px solid rgb(255, 255, 255);
+	padding: 5px;
+}
+form{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin-bottom: 20px;
+	font-size: 20px;
+}
+.h2{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin-bottom: 20px;
+}
+.btn{
+	border-radius: 5px ;
+	background-color: rgb(69, 69, 69);
+	color: #ffffff;
+	width: 120px;
+	height: 40px;
+	transition: transform 0.5s;
+}
+.btn:hover{
+	transform: scale(1.07);
+	background-color: rgb(24, 24, 24);
+}
+form input{
+	width: 120px;
+	height: 30px;
+}
+.btn-cal{
+	margin-left: 660px;
+	border-radius: 5px ;
+	background-color:rgb(69, 69, 69);
+	color: white;
+	width: 120px;
+	height: 40px;
+  	justify-content: center;
+  	align-items: center;
+	  transition: transform 0.5s;
+}
+.btn-cal:hover{
+	transform: scale(1.07);
+	background-color: rgb(24, 24, 24);
+}
